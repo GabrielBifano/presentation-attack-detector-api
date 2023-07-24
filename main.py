@@ -10,7 +10,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"nice and slow": 2, "data": 23}
+    return {"status": "functioning"}
 
 @app.post("/pred")
 async def root(item: Item):

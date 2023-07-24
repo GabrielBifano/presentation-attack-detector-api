@@ -12,7 +12,7 @@ transformer = transforms.Compose([
 
 def predict_image():
 
-    imgset = ImageFolder('./data/', transform=transformer,)
+    imgset = ImageFolder('../data/', transform=transformer,)
     imgloader = DataLoader(
         imgset,
         64, # batch size
