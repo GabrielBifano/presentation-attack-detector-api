@@ -1,6 +1,9 @@
 aiohttp==3.8.1
 aiosignal==1.2.0
 alabaster==0.7.12
+anaconda-client==1.9.0
+anaconda-navigator==2.4.2
+anaconda-project==0.10.2
 annotated-types==0.5.0
 anyio==3.5.0
 appdirs==1.4.4
@@ -42,9 +45,18 @@ chardet==4.0.0
 charset-normalizer==2.0.4
 click==8.0.4
 cloudpickle==2.0.0
+clyent==1.2.2
 cmake==3.26.4
 colorama==0.4.4
 colorcet==2.0.6
+conda==23.3.1
+conda-build==3.24.0
+conda-content-trust==0+unknown
+conda-pack==0.6.0
+conda-package-handling==1.8.1
+conda-repo-cli==1.0.4
+conda-token==0.3.0
+conda-verify==3.4.2
 constantly==15.1.0
 cookiecutter==1.7.3
 cryptography==3.4.8
@@ -53,6 +65,7 @@ cycler==0.11.0
 cymem==2.0.6
 Cython==0.29.28
 cytoolz==0.11.0
+daal4py==2021.5.0
 dask==2022.2.1
 datashader==0.13.0
 datashape==0.5.4
@@ -72,7 +85,7 @@ fastapi==0.100.0
 fastcore==1.5.29
 fastdownload==0.0.7
 fastjsonschema==2.15.1
-fastprogress==1.0.3
+fastprogress==1.0.0
 filelock==3.6.0
 flake8==3.9.2
 Flask==1.1.2
@@ -209,6 +222,7 @@ pexpect==4.8.0
 pickleshare==0.7.5
 Pillow==9.0.1
 pip==21.2.4
+pip-chill==1.0.3
 pkginfo==1.8.2
 plotly==5.6.0
 pluggy==1.0.0
@@ -239,7 +253,7 @@ pyerfa==2.0.0
 pyflakes==2.3.1
 Pygments==2.11.2
 PyHamcrest==2.0.2
-PyJWT==2.1.0
+PyJWT==2.4.0
 pylint==2.9.6
 pyls-spyder==0.4.0
 pyodbc==4.0.32
