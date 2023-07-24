@@ -1,9 +1,6 @@
 aiohttp==3.8.1
 aiosignal==1.2.0
 alabaster==0.7.12
-anaconda-client==1.9.0
-anaconda-navigator==2.4.2
-anaconda-project==0.10.2
 annotated-types==0.5.0
 anyio==3.5.0
 appdirs==1.4.4
