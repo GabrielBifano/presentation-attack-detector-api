@@ -2,9 +2,9 @@ import base64
 import numpy as np
 from PIL import Image
 from io import BytesIO
-from predict import predict
+from src.predict import predict
 from fastapi import FastAPI
-from model import load_model
+from src.model import load_model
 from pydantic import BaseModel
 
 class Item(BaseModel):
