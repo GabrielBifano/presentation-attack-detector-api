@@ -36,7 +36,7 @@ class Tester:
 
         conf = self.c_matrix.cpu()
 
-        fig, ax = plt.subplots()
+        _, ax = plt.subplots()
         ax.set_xticks([])
         ax.set_yticks([])
         ax.imshow(conf, cmap="Blues")
@@ -48,4 +48,4 @@ class Tester:
             for j in range(2):
                 text = f"{conf[i, j]}"
                 ax.text(j, i, text, va="center", ha="center")
-            plt.show()
+        plt.show()
