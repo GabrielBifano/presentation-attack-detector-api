@@ -18,8 +18,8 @@ class Learner:
         self.optimizer = optimizer
 
 
-    def train(self):
-        for epoch  in range(6):
+    def train(self, epochs=6):
+        for epoch  in range(epochs):
             start_time = time.time()
 
             for batch in self.dataloader:

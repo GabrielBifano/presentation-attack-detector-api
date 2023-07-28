@@ -7,4 +7,4 @@ opt = Adam(model.parameters(), ls=1e-4)
 
 if __name__ == '__main__':
     trainer = Learner(model, opt)
-    trainer.train()
+    trainer.train() # might pass num of epochs
