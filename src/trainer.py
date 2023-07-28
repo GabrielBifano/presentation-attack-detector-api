@@ -1,9 +1,8 @@
 import time
 from dataset import TRAIN_Loader
 from torch import nn
-from torch.optim import Adam
 
-class Trainer:
+class Learner:
 
     def __init__(
         self,
