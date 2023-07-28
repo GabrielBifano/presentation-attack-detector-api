@@ -17,7 +17,7 @@ class SpoofIdentifier(nn.Module):
 
 
 def load_model():
-    weights_path = './src/model_resnet34_6epochs.pth'
+    weights_path = './src/model_resnet34_8epochs.pth'
     weights = load(weights_path, map_location="cpu")
     model = SpoofIdentifier()
     model.load_state_dict(weights)
