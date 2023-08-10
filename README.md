@@ -3,7 +3,7 @@
 This is a Machine Learning project 👨‍🎓🤖
 Written with pytorch, and using a modified version of the CelebA Spoof dataset 🧮
 
-The model achieved a **99.09%** overall accuracy 🔥. It works on JPG and JPEG only
+The model achieved a **99.09%** overall accuracy after only 6 epochs 🔥. It works on JPG and JPEG only
 ( total correct over total predictions, so no precision vs accuracy taking place here 📊 )
 
 ## **You want to train it with some data?**
